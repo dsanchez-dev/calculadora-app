@@ -1,3 +1,2 @@
 <app-formulario (resultadoSuma)="procesarResultado($event)" />
-
-<p class="text-center">Resultado: {{ resultado }}</p>
+<app-resultado [resultadoHijo]="resultadoPadre"/>
